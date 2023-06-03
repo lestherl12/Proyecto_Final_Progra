@@ -1,0 +1,30 @@
+﻿<Window x:Class="Proyectofinal.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyectofinal"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid Background="#FFF9F007">
+        <TextBox x:Name="codigo" HorizontalAlignment="Left" Height="17" Margin="68,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" TextChanged="codigo_TextChanged"/>
+        <Button Content="Consultar Datos" HorizontalAlignment="Left" Margin="38,176,0,0" VerticalAlignment="Top" Click="Button_Click" Height="41" Background="#FFC2E7ED" FontFamily="Book Antiqua" FontWeight="Bold" Width="144"/>
+        <TextBox x:Name="produc" HorizontalAlignment="Left" Margin="266,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="desc" HorizontalAlignment="Left" Margin="266,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="prec" HorizontalAlignment="Left" Margin="266,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Código Del Producto" HorizontalAlignment="Left" Height="33" Margin="27,68,0,0" VerticalAlignment="Top" Width="167" FontFamily="Book Antiqua" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Producto" HorizontalAlignment="Left" Margin="202,76,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontWeight="Bold"/>
+        <Label Content="Descripción" HorizontalAlignment="Left" Margin="188,111,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontWeight="Bold"/>
+        <Label Content="Precio" HorizontalAlignment="Left" Margin="210,146,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontWeight="Bold"/>
+        <Label Content="Comprar Productos" HorizontalAlignment="Left" Margin="538,72,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Cantidad" HorizontalAlignment="Left" Margin="472,108,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontWeight="Bold"/>
+        <Label Content="Total" HorizontalAlignment="Left" Margin="483,144,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.511,0.387" FontFamily="Book Antiqua" FontWeight="Bold"/>
+        <TextBox x:Name="cant" HorizontalAlignment="Left" Margin="554,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="cant_TextChanged"/>
+        <TextBox x:Name="tot" HorizontalAlignment="Left" Margin="554,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="tot_TextChanged"/>
+        <Button Content="Calcular" HorizontalAlignment="Left" Margin="555,185,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click_1" Background="#FFC9F3FB" FontWeight="Bold" FontFamily="Book Antiqua" Height="32" RenderTransformOrigin="1.655,-1.436"/>
+        <Button Content="Agregar Compra" HorizontalAlignment="Left" Margin="556,236,0,0" VerticalAlignment="Top" Click="Button_Click_3" Background="#FFC0EAF1" FontWeight="Bold" FontFamily="Book Antiqua" Height="36" Width="118"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="232,258,0,0" VerticalAlignment="Top" Width="156" Background="#FFC4E7ED" FontFamily="Book Antiqua" FontWeight="Bold" Height="58" Click="Button_Click_2"/>
+        <Label Content="SISTEMA DE VENTAS DE DISTRIBUIDORA &quot;LA FE&quot;" HorizontalAlignment="Left" Margin="91,10,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" FontFamily="Courier New"/>
+
+    </Grid>
+</Window>
